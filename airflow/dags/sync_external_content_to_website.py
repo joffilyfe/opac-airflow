@@ -6,7 +6,7 @@ from airflow.models import Variable
 from airflow.operators.python_operator import PythonOperator
 
 from common.hooks import mongo_connect
-from operations.sync_exernal_content_to_website_operations import (
+from operations.sync_external_content_to_website_operations import (
     try_fetch_and_register_feed,
 )
 
